@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title> 
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #cccccc;
+            background-position: center;
+            background-attachment: fixed;
+            background-image: url(images.jpg);
+            background-size: cover;
+        }
+        header {
+            background-color: aquamarine;
+            color: black;
+            padding: 10px 0;
+            text-align: center;
+            position: relative;
+        }
+        header .header-icon {
+            position: absolute;
+            left: 10px;
+            top: 50%;
+            transform: translate(-50%);
+            width: 95px; /* Ukuran ikon */
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        section {
+            margin: 20px 0;
+        }
+        h1, h2, p, li {
+            color: rgb(255, 255, 255);
+        }
+        a {
+            color: aqua;
+        }
+        .skills, .biodata {
+            background: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .skills ul, .projects ul li {
+            list-style-type: none;
+            padding: 0;
+        }
+        .skills ul li, .projects ul li {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        .table-img {
+            display: block;
+            margin: 0 auto;
+            max-width: 350px;
+            height: auto;
+        }
+        th, td {
+            border: 1px solid #000000;
+            text-align: left;
+            padding: 8px;
+            vertical-align: middle;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        footer {
+            background-color: #111;
+            color: #fff;
+            text-align: center;
+            padding: 0.1px 0;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="about-me">
+            <h2>Tentang Saya</h2>
+            <p>Halo, nama saya Mecca Surya Pratama</p>
+        </section>
+
+        <section class="biodata">
+            <h3>Biodata Diri</h3>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Elemen</th>
+                        <th>Detail</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nama</td>
+                        <td>Mecca Surya Pratama</td>
+                    </tr>
+                    <tr>
+                        <td>Umur</td>
+                        <td>16 Tahun</td>
+                    </tr>
+                    <tr>
+                        <td>Alamat</td>
+                        <td>Kec. Sidoarjo, Kab. Sidoarjo, Jawa Timur</td>
+                    </tr>
+                    <tr><td colspan="2"><img src="profil.jpg" alt="profil" class="table-img"></td>
+
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
+</body>
+</html>
